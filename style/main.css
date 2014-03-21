@@ -305,6 +305,7 @@ hr {
   transform: translate(363px, 363px); }
 
 .tile {
+  color: rgba(255,255,255,0.4);
   position: absolute;
   -webkit-transition: 100ms ease-in-out;
   -moz-transition: 100ms ease-in-out;
@@ -314,7 +315,7 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background-color: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
