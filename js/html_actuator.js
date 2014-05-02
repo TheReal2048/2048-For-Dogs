@@ -160,8 +160,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-counturl", "http://cshao.me/Ventus-2048/");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at Ventus 2048, a game where you " +
-             "join numbers to score high! #Ventus2048 #VentusTheCorgi";
+  var text = "I scored " + this.score + " points at Ventus 2048! #Ventus2048 #VentusTheCorgi";
   tweet.setAttribute("data-text", text);
 
   return tweet;
